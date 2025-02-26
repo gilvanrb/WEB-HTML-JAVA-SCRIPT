@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+
+    <!--1 - Perguntar a idade do usuário:
+Se for maior ou igual a 18, Imprimir acesso Liberado
+Se for menor Imprimir Acesso Negado-->
+</head>
+<body>
+    <h2>Acesso Restrito</h2>
+    <form>
+        <label for="">Insira sua idade?</label>
+        <input type="number" id="idade"><br>
+    </form>
+    <button onclick="verificar()">verificar</button><br>
+   <img src="" alt="" id="imgVerifica" width="400px">
+</body>
+<script>
+    function verificar(){
+        let idade = Number(document.getElementById("idade").value);
+        let imgVerifica = document.getElementById("imgVerifica");
+
+        if(idade >= 18){
+            alert("Acesso Liberado")
+            imgVerifica.src = "/img/liberado.png"
+        } 
+        else{
+            alert("Acesso Negado")
+            imgVerifica.src = "/img/negado.jpg"
+        }
+    }
+
+
+
+
+</script>
+
+</html>

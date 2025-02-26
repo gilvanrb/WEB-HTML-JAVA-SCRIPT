@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio II</title>
+</head>
+<body>
+   
+    <form>
+        <label for="">Informe um numero</label>
+        <input type="number" id="num"><br>
+    </form>
+    <button onclick="verificar()">verificar</button><br>
+   
+</body>
+<script>
+    function verificar(){
+        
+        let num = Number(document.getElementById("num").value);
+
+        if(num % 2 == 0){
+            alert("Par")
+        } 
+        else{
+            alert("Impar")
+            
+        }
+    }
+
+
+
+
+</script>
+
+</html>

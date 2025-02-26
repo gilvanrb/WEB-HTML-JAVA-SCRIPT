@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laços de Repetição</title>
+</head>
+<body>
+    <h2>Laço For</h2>
+    <p id="txt"></i></p>
+
+    <h2>Laço While</h2>
+    <p id="demo"></p>
+
+    
+
+</body>
+<script>
+    //Laço For
+    let texto = "";
+    for(let cont = 0; cont < 5 ; cont++){
+        texto = texto + "Volta:"+cont+"<br>"
+
+
+        //alert("Volta: "+cont)
+    }
+    document.getElementById("txt").innerHTML = texto;
+
+    //Laço While
+
+    let contador = 0;
+    let text = ""
+    while (contador < 10){
+       
+        text = text + "Roda Gigante do Amor: "+contador+"<br>"
+       
+        //alert ("Roda Gigante -> Volta: "+contador)
+        contador = contador + 1;
+
+       
+    }
+    document.getElementById("demo").innerHTML = text;
+
+   
+
+    
+
+
+
+
+
+</script>
+</html>
