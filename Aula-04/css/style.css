@@ -1,0 +1,26 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+header{
+    background-color: rgb(18, 145, 66);
+    padding: 6em;
+    text-align: center;
+    color: rgb(231, 221, 221);
+    
+}
+#btnHomem{
+    background-color: aqua;
+    padding: 2em;
+}
+#btnMulher{
+    background-color: blueviolet;
+    padding: 2em;
+}
+.T2{
+    text-align: center;
+
+}
+main{
+    text-align: center;
+}
