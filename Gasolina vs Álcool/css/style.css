@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    font-weight: bold;
+    background-color: #FF5722; /* Cor de fundo verde */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh;
+    
+}
+
+.container {
+    background-color: #ffc10765; /* Cor de fundo conteiner onde tem as informações, verde */
+    padding: 1em;
+    border-radius: 5px; /*Arredondar os cantos do quadrado maior*/
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+    width: 665px !important; /*mudar o tamanho do quadrado*/
+    height: 700px !important; /*comprimento do quadrado maior*/
+  
+}
+
+h1 {
+    text-align: center;
+    color: #080808;
+    margin-top: 0px;
+    /*h1 Calculadora Alcool vs Gasolina*/
+}
+
+h2 {
+    text-align: center;
+    color: #140f0f;
+    margin-bottom: 30px;
+    /* Qual é a melhor opção*/
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+     /* imagem-container display flex é o 'carro'*/
+}
+
+.image-container img {
+    width: 300px;
+    margin: 10px;
+    /* imagem-container img é o 'carro'*/
+}
+
+.input-group {
+    margin-bottom: 25px; /*Distancia entre os elementos*/
+    width: 500px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+label {
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 15px; /*Distancia entre os container retangular*/
+}
+
+input[type="number"] {
+    width: 500px !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    padding: 13px !important;
+    text-align: center !important;
+    background-color: #faf9f8; /* Cor do quadro R$ Digite o valor*/
+    color: #0a0a09; /*borda do container abaixo nome preço */
+    border-radius: 5px !important;
+    
+}
+
+button { /*Botão calcular*/
+    width: 500px !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    padding: 13px !important;
+    text-align: center !important;
+    background-color: #faf9f8; /* Cor do quadro do Texto calcular*/
+    color: #0a0a09; /* Cor do Texto calcular*/
+    border-radius: 5px !important; /*Arredondar os cantos dos retangulos*/
+    font-weight: bold;  /* Cor da palavra calcular*/
+    
+}
+
+#resultado { /*"Abasteça com Gasolina" "Abasteça com Álcool*/
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2px;   
+}
+footer{
+    text-align: center;
+    font-family:  'Arial';
+    padding: 1px !important;
+    background-color: #E65100;
+
+}
